@@ -16,6 +16,7 @@
 		A37262D51496B45F00A4A244 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A37262D41496B45F00A4A244 /* ViewController.m */; };
 		A37262D81496B45F00A4A244 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A37262D61496B45F00A4A244 /* ViewController_iPhone.xib */; };
 		A37262DB1496B45F00A4A244 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A37262D91496B45F00A4A244 /* ViewController_iPad.xib */; };
+		A386BD141496B63A0033FC55 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A386BD131496B63A0033FC55 /* MenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		A37262D41496B45F00A4A244 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A37262D71496B45F00A4A244 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		A37262DA1496B45F00A4A244 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		A386BD121496B63A0033FC55 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		A386BD131496B63A0033FC55 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				A37262D01496B45F00A4A244 /* AppDelegate.h */,
+				A386BD121496B63A0033FC55 /* MenuTableViewController.h */,
+				A386BD131496B63A0033FC55 /* MenuTableViewController.m */,
 				A37262D11496B45F00A4A244 /* AppDelegate.m */,
 				A37262D31496B45F00A4A244 /* ViewController.h */,
 				A37262D41496B45F00A4A244 /* ViewController.m */,
@@ -167,6 +172,7 @@
 				A37262CE1496B45F00A4A244 /* main.m in Sources */,
 				A37262D21496B45F00A4A244 /* AppDelegate.m in Sources */,
 				A37262D51496B45F00A4A244 /* ViewController.m in Sources */,
+				A386BD141496B63A0033FC55 /* MenuTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +294,7 @@
 				A37262E01496B45F00A4A244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
